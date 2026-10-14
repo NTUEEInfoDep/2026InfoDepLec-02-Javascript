@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <h1>📝 Todo List</h1>
+    <div id="todo-input-container">
+      <input type="text" id="todo-input" placeholder="new todo" />
+      <button id="todo-add">add</button>
+    </div>
+    <section id="todos">
+    </section>
+
+    <div id="todo-footer">
+      <button id="clear-completed">Clear Completed</button>
+      <button id="toggle-all">Mark All Complete</button>
+      <p id="todos-count">2 incomplete todos</p>
+    </div>
+  </body>
+
+  <template id="todo-item-template">
+    <div id="" class="todo-item">
+      <div>
+        <input data-id="" type="checkbox" />
+        <p class="todo-title">烤南瓜派</p>
+      </div>
+      <button data-id="" class="delete-todo">❌</button>
+    </div>
+  </template>
+
+</html>
