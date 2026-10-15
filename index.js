@@ -9,6 +9,11 @@ const todoData = [
     title: "todo 2",
     completed: false
   },
+  {
+    id: 3,
+    title: "todo 3",
+    completed: false
+  },
 ];
 const itemTemplate = document.querySelector("#todo-item-template");
 const todoList = document.querySelector("#todos");
